@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D40637CC046D8BB0BE81C5 /* Pods_Tinnitus_TailorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFC88EC499FEFF5C433C70E /* Pods_Tinnitus_TailorTests.framework */; };
+		533818514E722326203DFB77 /* Pods_Tinnitus_Tailor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6312CCCD75182676B67617EB /* Pods_Tinnitus_Tailor.framework */; };
+		5A45F0CDB0A9F56664015ABF /* Pods_Tinnitus_Tailor_Tinnitus_TailorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B1ED595C4064D4DA0F925 /* Pods_Tinnitus_Tailor_Tinnitus_TailorUITests.framework */; };
+		8C1BC74522F9932F004CDC24 /* ScopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1BC74422F9932F004CDC24 /* ScopeViewController.swift */; };
+		8C934E98228AF67700443E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C934E97228AF67700443E68 /* AppDelegate.swift */; };
+		8C934E9D228AF67700443E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C934E9B228AF67700443E68 /* Main.storyboard */; };
+		8C934EA2228AF67900443E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C934EA0228AF67900443E68 /* LaunchScreen.storyboard */; };
+		8C934EAD228AF67900443E68 /* Tinnitus_TailorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C934EAC228AF67900443E68 /* Tinnitus_TailorTests.swift */; };
+		8C934EB8228AF67A00443E68 /* Tinnitus_TailorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C934EB7228AF67A00443E68 /* Tinnitus_TailorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C934EA9228AF67900443E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C934E8C228AF67700443E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C934E93228AF67700443E68;
+			remoteInfo = "Tinnitus Tailor";
+		};
+		8C934EB4228AF67900443E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C934E8C228AF67700443E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C934E93228AF67700443E68;
+			remoteInfo = "Tinnitus Tailor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24558DD706E577D0C496B220 /* Pods-Tinnitus Tailor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinnitus Tailor.debug.xcconfig"; path = "Target Support Files/Pods-Tinnitus Tailor/Pods-Tinnitus Tailor.debug.xcconfig"; sourceTree = "<group>"; };
+		45428AA2BABB9DDDACE11FA8 /* Pods-Tinnitus TailorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinnitus TailorTests.debug.xcconfig"; path = "Target Support Files/Pods-Tinnitus TailorTests/Pods-Tinnitus TailorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6312CCCD75182676B67617EB /* Pods_Tinnitus_Tailor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinnitus_Tailor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8834208C5AD9BCCC74781094 /* Pods-Tinnitus Tailor-Tinnitus TailorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinnitus Tailor-Tinnitus TailorUITests.release.xcconfig"; path = "Target Support Files/Pods-Tinnitus Tailor-Tinnitus TailorUITests/Pods-Tinnitus Tailor-Tinnitus TailorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C1BC74422F9932F004CDC24 /* ScopeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeViewController.swift; sourceTree = "<group>"; };
+		8C934E94228AF67700443E68 /* AttysScope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttysScope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C934E97228AF67700443E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C934E9C228AF67700443E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C934EA1228AF67900443E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C934EA3228AF67900443E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C934EA8228AF67900443E68 /* AttysScopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttysScopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C934EAC228AF67900443E68 /* Tinnitus_TailorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinnitus_TailorTests.swift; sourceTree = "<group>"; };
+		8C934EAE228AF67900443E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C934EB3228AF67900443E68 /* AttysScopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttysScopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C934EB7228AF67A00443E68 /* Tinnitus_TailorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinnitus_TailorUITests.swift; sourceTree = "<group>"; };
+		8C934EB9228AF67A00443E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A77823D97DC28518796309 /* Pods-Tinnitus TailorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinnitus TailorTests.release.xcconfig"; path = "Target Support Files/Pods-Tinnitus TailorTests/Pods-Tinnitus TailorTests.release.xcconfig"; sourceTree = "<group>"; };
+		B98B1ED595C4064D4DA0F925 /* Pods_Tinnitus_Tailor_Tinnitus_TailorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinnitus_Tailor_Tinnitus_TailorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9F48AD6DFB8504251B664B /* Pods-Tinnitus Tailor-Tinnitus TailorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinnitus Tailor-Tinnitus TailorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tinnitus Tailor-Tinnitus TailorUITests/Pods-Tinnitus Tailor-Tinnitus TailorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCFC88EC499FEFF5C433C70E /* Pods_Tinnitus_TailorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinnitus_TailorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD42808F26BAD32DC0FB603D /* Pods-Tinnitus Tailor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinnitus Tailor.release.xcconfig"; path = "Target Support Files/Pods-Tinnitus Tailor/Pods-Tinnitus Tailor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C934E91228AF67700443E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533818514E722326203DFB77 /* Pods_Tinnitus_Tailor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C934EA5228AF67900443E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D40637CC046D8BB0BE81C5 /* Pods_Tinnitus_TailorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C934EB0228AF67900443E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A45F0CDB0A9F56664015ABF /* Pods_Tinnitus_Tailor_Tinnitus_TailorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C934E8B228AF67700443E68 = {
+			isa = PBXGroup;
+			children = (
+				8C934E96228AF67700443E68 /* AttysScope */,
+				8C934EAB228AF67900443E68 /* AttysScopeTests */,
+				8C934EB6228AF67A00443E68 /* AttysScopeUITests */,
+				8C934E95228AF67700443E68 /* Products */,
+				C8E24E728FA78B239054C80C /* Pods */,
+				9CA633C90349F39CD9954072 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C934E95228AF67700443E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C934E94228AF67700443E68 /* AttysScope.app */,
+				8C934EA8228AF67900443E68 /* AttysScopeTests.xctest */,
+				8C934EB3228AF67900443E68 /* AttysScopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C934E96228AF67700443E68 /* AttysScope */ = {
+			isa = PBXGroup;
+			children = (
+				8C934E97228AF67700443E68 /* AppDelegate.swift */,
+				8C1BC74422F9932F004CDC24 /* ScopeViewController.swift */,
+				8C934E9B228AF67700443E68 /* Main.storyboard */,
+				8C934EA0228AF67900443E68 /* LaunchScreen.storyboard */,
+				8C934EA3228AF67900443E68 /* Info.plist */,
+			);
+			path = AttysScope;
+			sourceTree = "<group>";
+		};
+		8C934EAB228AF67900443E68 /* AttysScopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C934EAC228AF67900443E68 /* Tinnitus_TailorTests.swift */,
+				8C934EAE228AF67900443E68 /* Info.plist */,
+			);
+			path = AttysScopeTests;
+			sourceTree = "<group>";
+		};
+		8C934EB6228AF67A00443E68 /* AttysScopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C934EB7228AF67A00443E68 /* Tinnitus_TailorUITests.swift */,
+				8C934EB9228AF67A00443E68 /* Info.plist */,
+			);
+			path = AttysScopeUITests;
+			sourceTree = "<group>";
+		};
+		9CA633C90349F39CD9954072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6312CCCD75182676B67617EB /* Pods_Tinnitus_Tailor.framework */,
+				B98B1ED595C4064D4DA0F925 /* Pods_Tinnitus_Tailor_Tinnitus_TailorUITests.framework */,
+				BCFC88EC499FEFF5C433C70E /* Pods_Tinnitus_TailorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8E24E728FA78B239054C80C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24558DD706E577D0C496B220 /* Pods-Tinnitus Tailor.debug.xcconfig */,
+				DD42808F26BAD32DC0FB603D /* Pods-Tinnitus Tailor.release.xcconfig */,
+				BB9F48AD6DFB8504251B664B /* Pods-Tinnitus Tailor-Tinnitus TailorUITests.debug.xcconfig */,
+				8834208C5AD9BCCC74781094 /* Pods-Tinnitus Tailor-Tinnitus TailorUITests.release.xcconfig */,
+				45428AA2BABB9DDDACE11FA8 /* Pods-Tinnitus TailorTests.debug.xcconfig */,
+				A6A77823D97DC28518796309 /* Pods-Tinnitus TailorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C934E93228AF67700443E68 /* AttysScope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C934EBC228AF67A00443E68 /* Build configuration list for PBXNativeTarget "AttysScope" */;
+			buildPhases = (
+				E1ABF8627CF41A0F16D45C44 /* [CP] Check Pods Manifest.lock */,
+				8C934E90228AF67700443E68 /* Sources */,
+				8C934E91228AF67700443E68 /* Frameworks */,
+				8C934E92228AF67700443E68 /* Resources */,
+				DEF280541FC56C12FF87695F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttysScope;
+			productName = "Tinnitus Tailor";
+			productReference = 8C934E94228AF67700443E68 /* AttysScope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C934EA7228AF67900443E68 /* AttysScopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C934EBF228AF67A00443E68 /* Build configuration list for PBXNativeTarget "AttysScopeTests" */;
+			buildPhases = (
+				341467CD48D096C48AAAF130 /* [CP] Check Pods Manifest.lock */,
+				8C934EA4228AF67900443E68 /* Sources */,
+				8C934EA5228AF67900443E68 /* Frameworks */,
+				8C934EA6228AF67900443E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C934EAA228AF67900443E68 /* PBXTargetDependency */,
+			);
+			name = AttysScopeTests;
+			productName = "Tinnitus TailorTests";
+			productReference = 8C934EA8228AF67900443E68 /* AttysScopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C934EB2228AF67900443E68 /* AttysScopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C934EC2228AF67A00443E68 /* Build configuration list for PBXNativeTarget "AttysScopeUITests" */;
+			buildPhases = (
+				9ECA2E0B65C2EF3353B857B1 /* [CP] Check Pods Manifest.lock */,
+				8C934EAF228AF67900443E68 /* Sources */,
+				8C934EB0228AF67900443E68 /* Frameworks */,
+				8C934EB1228AF67900443E68 /* Resources */,
+				7EB5F4A17D8E5B114F056105 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C934EB5228AF67900443E68 /* PBXTargetDependency */,
+			);
+			name = AttysScopeUITests;
+			productName = "Tinnitus TailorUITests";
+			productReference = 8C934EB3228AF67900443E68 /* AttysScopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C934E8C228AF67700443E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bernd Porr";
+				TargetAttributes = {
+					8C934E93228AF67700443E68 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8C934EA7228AF67900443E68 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8C934E93228AF67700443E68;
+					};
+					8C934EB2228AF67900443E68 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8C934E93228AF67700443E68;
+					};
+				};
+			};
+			buildConfigurationList = 8C934E8F228AF67700443E68 /* Build configuration list for PBXProject "AttysScope" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C934E8B228AF67700443E68;
+			productRefGroup = 8C934E95228AF67700443E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C934E93228AF67700443E68 /* AttysScope */,
+				8C934EA7228AF67900443E68 /* AttysScopeTests */,
+				8C934EB2228AF67900443E68 /* AttysScopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C934E92228AF67700443E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C934EA2228AF67900443E68 /* LaunchScreen.storyboard in Resources */,
+				8C934E9D228AF67700443E68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C934EA6228AF67900443E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C934EB1228AF67900443E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		341467CD48D096C48AAAF130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tinnitus TailorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB5F4A17D8E5B114F056105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinnitus Tailor-Tinnitus TailorUITests/Pods-Tinnitus Tailor-Tinnitus TailorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinnitus Tailor-Tinnitus TailorUITests/Pods-Tinnitus Tailor-Tinnitus TailorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinnitus Tailor-Tinnitus TailorUITests/Pods-Tinnitus Tailor-Tinnitus TailorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ECA2E0B65C2EF3353B857B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tinnitus Tailor-Tinnitus TailorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF280541FC56C12FF87695F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinnitus Tailor/Pods-Tinnitus Tailor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinnitus Tailor/Pods-Tinnitus Tailor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinnitus Tailor/Pods-Tinnitus Tailor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1ABF8627CF41A0F16D45C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tinnitus Tailor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C934E90228AF67700443E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1BC74522F9932F004CDC24 /* ScopeViewController.swift in Sources */,
+				8C934E98228AF67700443E68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C934EA4228AF67900443E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C934EAD228AF67900443E68 /* Tinnitus_TailorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C934EAF228AF67900443E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C934EB8228AF67A00443E68 /* Tinnitus_TailorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C934EAA228AF67900443E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C934E93228AF67700443E68 /* AttysScope */;
+			targetProxy = 8C934EA9228AF67900443E68 /* PBXContainerItemProxy */;
+		};
+		8C934EB5228AF67900443E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C934E93228AF67700443E68 /* AttysScope */;
+			targetProxy = 8C934EB4228AF67900443E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C934E9B228AF67700443E68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C934E9C228AF67700443E68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C934EA0228AF67900443E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C934EA1228AF67900443E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C934EBA228AF67A00443E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C934EBB228AF67A00443E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C934EBD228AF67A00443E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24558DD706E577D0C496B220 /* Pods-Tinnitus Tailor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4582XX5NDQ;
+				INFOPLIST_FILE = AttysScope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Glasgow-Neuro-LTD.AttysScope";
+				PRODUCT_NAME = AttysScope;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C934EBE228AF67A00443E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD42808F26BAD32DC0FB603D /* Pods-Tinnitus Tailor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4582XX5NDQ;
+				INFOPLIST_FILE = AttysScope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Glasgow-Neuro-LTD.AttysScope";
+				PRODUCT_NAME = AttysScope;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8C934EC0228AF67A00443E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45428AA2BABB9DDDACE11FA8 /* Pods-Tinnitus TailorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tinnitus TailorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Glasgow-Neuro-LTD.Tinnitus-TailorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttysScope.app/AttysScope";
+			};
+			name = Debug;
+		};
+		8C934EC1228AF67A00443E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A77823D97DC28518796309 /* Pods-Tinnitus TailorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tinnitus TailorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Glasgow-Neuro-LTD.Tinnitus-TailorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttysScope.app/AttysScope";
+			};
+			name = Release;
+		};
+		8C934EC3228AF67A00443E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9F48AD6DFB8504251B664B /* Pods-Tinnitus Tailor-Tinnitus TailorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tinnitus TailorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Glasgow-Neuro-LTD.Tinnitus-TailorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tinnitus Tailor";
+			};
+			name = Debug;
+		};
+		8C934EC4228AF67A00443E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8834208C5AD9BCCC74781094 /* Pods-Tinnitus Tailor-Tinnitus TailorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tinnitus TailorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Glasgow-Neuro-LTD.Tinnitus-TailorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tinnitus Tailor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C934E8F228AF67700443E68 /* Build configuration list for PBXProject "AttysScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C934EBA228AF67A00443E68 /* Debug */,
+				8C934EBB228AF67A00443E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C934EBC228AF67A00443E68 /* Build configuration list for PBXNativeTarget "AttysScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C934EBD228AF67A00443E68 /* Debug */,
+				8C934EBE228AF67A00443E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C934EBF228AF67A00443E68 /* Build configuration list for PBXNativeTarget "AttysScopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C934EC0228AF67A00443E68 /* Debug */,
+				8C934EC1228AF67A00443E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C934EC2228AF67A00443E68 /* Build configuration list for PBXNativeTarget "AttysScopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C934EC3228AF67A00443E68 /* Debug */,
+				8C934EC4228AF67A00443E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C934E8C228AF67700443E68 /* Project object */;
+}
